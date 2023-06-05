@@ -26,14 +26,14 @@ module.exports.server = (isProd) => {
 					package.build.publish = [
 						{
 							"provider": "github",
-							"repo": "ever-gauzy-server",
+							"repo": "workspace-server",
 							"releaseType": "prerelease"
 						},
 						{
 							"provider": "spaces",
 							"name": "ever",
 							"region": "sfo3",
-							"path": "/ever-gauzy-server-pre",
+							"path": "/workspace-server-pre",
 							"acl": "public-read"
 						}
 					];
@@ -74,14 +74,14 @@ module.exports.desktop = (isProd) => {
 					package.build.publish = [
 						{
 							"provider": "github",
-							"repo": "ever-gauzy-desktop",
+							"repo": "workspace-desktop",
 							"releaseType": "prerelease"
 						},
 						{
 							"provider": "spaces",
 							"name": "ever",
 							"region": "sfo3",
-							"path": "/ever-gauzy-desktop-pre",
+							"path": "/workspace-desktop-pre",
 							"acl": "public-read"
 						}
 					];
@@ -121,14 +121,14 @@ module.exports.desktopTimer = (isProd) => {
 				package.build.publish = [
 					{
 						"provider": "github",
-						"repo": "ever-gauzy-desktop-timer",
+						"repo": "workspace-desktop-timer",
 						"releaseType": "prerelease"
 					},
 					{
 						"provider": "spaces",
 						"name": "ever",
 						"region": "sfo3",
-						"path": "/ever-gauzy-desktop-timer-pre",
+						"path": "/workspace-desktop-timer-pre",
 						"acl": "public-read"
 					}
 				];
