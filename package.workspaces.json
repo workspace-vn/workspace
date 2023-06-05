@@ -1,7 +1,7 @@
 {
 	"name": "gauzy",
 	"version": "0.1.0",
-	"repository": "https://github.com/workspace-vn/ever-gauzy.git",
+	"repository": "https://github.com/workspace-vn/workspace.git",
 	"private": true,
 	"resolutions": {},
 	"workspaces": [

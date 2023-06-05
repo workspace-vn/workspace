@@ -1,15 +1,15 @@
 {
-	"name": "ever-gauzy",
+	"name": "workspace",
 	"version": "0.1.0",
 	"description": "Ever Gauzy - Business Management Platform (ERP/CRM/HRM)",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/workspace-vn/ever-gauzy.git"
+		"url": "https://github.com/workspace-vn/workspace.git"
 	},
 	"bugs": {
-		"url": "https://github.com/workspace-vn/ever-gauzy/issues"
+		"url": "https://github.com/workspace-vn/workspace/issues"
 	},
 	"private": true,
 	"author": {

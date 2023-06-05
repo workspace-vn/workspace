@@ -65,7 +65,7 @@ let tray: Tray;
 let isServerRun: boolean;
 
 const updater = new DesktopUpdater({
-	repository: 'ever-gauzy-server',
+	repository: 'workspace-server',
 	owner: 'workspace-vn',
 	typeRelease: 'releases',
 });
